@@ -1,22 +1,11 @@
-{
-  "Services": [
-    {
-      "Url": "http://example.com/api/v1",
-      "Endpoints": [
-        {
-          "Path": "/users",
-          "Method": "GET",
-          "ItemType": "User",
-          "Uri": "%[coveo_url]/users/%[id]",
-          "ClickableUri": "%[coveo_url]/users/%[id]",
-          "Title": "%[name]",
-          "ModifiedDate": "%[updated]",
+     {
           "Metadata": {
-            "id": "%[id]",
-            "username": "%[name]"
+           {
+"title":"Palo Alto Networks",
+"description":"Palo Alto Networks is the next-generation security company maintaining trust in the digital age by helping tens of thousands of organizations worldwide prevent cyber breaches.",
+ "last modified":"",
+ "indexed date":"",
+  "url":"www.paloaltonetworks.com",
+             }
           }
         }
-      ]
-    }
-  ]
-}
