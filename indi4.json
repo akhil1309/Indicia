@@ -1,16 +1,21 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<h2>Create Object from JSON String</h2>
-
-<p id="demo"></p>
-
-<script>
-var txt = '{"name":"John", "age":30, "city":"New York"}'
-var obj = JSON.parse(txt);
-document.getElementById("demo").innerHTML = obj.name + ", " + obj.age;
-</script>
-
-</body>
-</html>
+{
+  "Services": [
+    {
+      "Url": "http://example.com/api/v1",
+      "Endpoints": [
+        {
+          "Path": "/items",
+          "Method": "GET",
+          "ItemPath": "entries[0].results",
+          "ItemType": "Item",
+          "Uri": "%[coveo_url]/items/%[id]",
+          "ClickableUri": "%[coveo_url]/items/%[id]",
+          "Title": "%[name]",
+          "Metadata": {
+            "id": "%[id]"
+          }
+        }
+      ]
+    }
+  ]
+}

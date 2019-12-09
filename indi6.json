@@ -1,25 +1,19 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<h2>Content as Array.</h2>
-<p>Content written as an JSON array will be converted into a JavaScript array.</p>
-
-<p id="demo"></p>
-
-<script>
-var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function() {
-  if (this.readyState == 4 && this.status == 200) {
-    var myArr = JSON.parse(this.responseText);
-    document.getElementById("demo").innerHTML = myArr[0];
-  }
-};
-xmlhttp.open("GET", "json_demo_array.txt", true);
-xmlhttp.send();
-</script>
-
-<p>Take a look at <a href="json_demo_array.txt" target="_blank">json_demo_array.txt</a></p>
-
-</body>
-</html>
+{
+  "Services": [
+    {
+      "Url": "http://example.com/api/v1",
+      "Endpoints": [
+        {
+          "Path": "/users",
+          "Method": "GET",
+          "ItemType": "User",
+          "Uri": "%[coveo_url]/users/%[id]",
+          "ClickableUri": "%[coveo_url]/users/%[id]",
+          "Headers": {
+            "Authorization": "Bearer @ApiKey"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,30 +1,31 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<p>How to delete properties of a JSON object.</p>
-
-<p id="demo"></p>
-
-<script>
-var myObj, i, x = "";
-myObj = {
-  "name":"John",
-  "age":30,
-  "cars": {
-  "car1":"Ford",
-  "car2":"BMW",
-  "car3":"Fiat"
+{
+    "Services": [
+      {
+        "Url": "http://example.com/api/v1",
+        "Paging": {
+          "PageSize": 5,         // Each page contains 5 items
+          "OffsetType": "cursor",   // Offset are based on cursor
+          "NextPageKey": "nextPageToken"
+           "Parameters": {
+            "Limit": "limit",     // Name of the 'limit' query parameter
+            "Offset": "pageToken"      // Name of the 'offset' query parameter
+          }
+        },
+        "Endpoints": [
+          {
+            "Path": "/users",
+            "Method": "GET",
+            "ItemType": "User",
+            "Uri": "%[coveo_url]/users/%[id]",
+            "ClickableUri": "%[coveo_url]/users/%[id]",
+            "Title": "%[name]",
+            "ModifiedDate": "%[updated]",
+            "Metadata": {
+              "id": "%[id]",
+              "username": "%[name]"
+            }
+          }
+        ]
+      }
+    ]
   }
-}
-delete myObj.cars.car2;
-
-for (i in myObj.cars) {
-  x += myObj.cars[i] + "<br>";
-}
-
-document.getElementById("demo").innerHTML = x;
-</script>
-
-</body>
-</html>

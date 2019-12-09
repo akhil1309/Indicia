@@ -1,17 +1,22 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<p>Access a JSON object using dot notation:</p>
-
-<p id="demo"></p>
-
-<script>
-var myObj, x;
-myObj = {"name":"John", "age":30, "car":null};
-x = myObj.name;
-document.getElementById("demo").innerHTML = x;
-</script>
-
-</body>
-</html>
+{
+  "Services": [
+    {
+      "Url": "http://example.com/api/v1",
+      "Endpoints": [
+        {
+          "Path": "/users",
+          "Method": "GET",
+          "ItemType": "User",
+          "Uri": "%[coveo_url]/users/%[id]",
+          "ClickableUri": "%[coveo_url]/users/%[id]",
+          "Title": "%[name]",
+          "ModifiedDate": "%[updated]",
+          "Metadata": {
+            "id": "%[id]",
+            "username": "%[name]"
+          }
+        }
+      ]
+    }
+  ]
+}
