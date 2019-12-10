@@ -1,18 +1,38 @@
 {
-{
-"title":"PaloAltoNetworks"
-}
-{
-"description":"Palo Alto Networks is the next-generation security company maintaining trust in the digital age by helping tens of thousands of organizations worldwide prevent cyber breaches.",
-}
-
-{
- "last modified":"",
-}
-{
- "indexed date":"",
-}
-{
-"url":"www.paloaltonetworks.com",
-}
+  "title":"Get Started",
+  "description":"Welcome to the LIVEcommunity! Thanks for joining our community. This article shows you around the LIVEommunity.",
+  "url":"https://live.paloaltonetworks.com/t5/Get-Started/ct-p/get_started",
+  "object0":
+   {
+     "title":"News Events",
+  "description":"Get rewarded for being active: the more you engage, the more badges you will get, showcasing your activity and expertise",
+  "url":"https://live.paloaltonetworks.com/t5/News-Events/ct-p/News-Events"
+    },
+     "object1":
+    {
+     "title":"Collaboration",
+  "description":"What exactly gets configured in the next-generation firewall when you load the IronSkillet day one.",
+  "url":"https://live.paloaltonetworks.com/t5/Collaboration/ct-p/collaboration" 
+    },
+    "object2":
+  
+    {
+     "title":"Education",
+  "description":"",
+  "url":"https://live.paloaltonetworks.com/t5/Education/ct-p/academy" 
+    },
+    "object3":
+  
+    {
+     "title":"Technology",
+  "description":"https://live.paloaltonetworks.com/t5/Technologies/ct-p/Technology",
+  "url":"" 
+    },
+    "object4":
+  
+    {
+     "title":"Resources",
+  "description":"",
+  "url":"https://live.paloaltonetworks.com/t5/Resources/ct-p/Resources" 
+    } 
 }
