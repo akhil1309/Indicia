@@ -4,7 +4,7 @@
   "description":"Welcome to the LIVEcommunity! Thanks for joining our community. This article shows you around the LIVEommunity.",
   "url":"https://live.paloaltonetworks.com/t5/Get-Started/ct-p/get_started",
   
-                "objects":[
+                "object":[
 		{
                                     "title":"News Events",
                                     "description":"Get rewarded for being active: the more you engage, the more badges you will get, showcasing your activity and                                                              expertise",
