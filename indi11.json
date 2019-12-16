@@ -5,21 +5,21 @@
       "results": [
         {
           "id": 1,
-          "name": "Get Started"
+          "title": "Get Started"
          
         },
         {
           "id": 2,
-          "name": "News Events"
+          "title": "News Events"
                  },
         {
           "id": 3,
-          "name": "Collaboration"
+          "title": "Collaboration"
           
         },
         {
           "id": 4,
-          "name": "Education"
+          "title": "Education"
          
         },
        {
@@ -29,7 +29,7 @@
         },
        {
           "id": 6,
-          "name": "Resources"
+          "title": "Resources"
        
         }
       ]
