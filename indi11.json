@@ -4,33 +4,37 @@
     {
       "results": [
         {
-          "id": 1,
-          "title": "Get Started"
+         
+          "title": "Get Started",
+          "url":"https://live.paloaltonetworks.com/t5/Get-Started/ct-p/get_started"
          
         },
         {
-          "id": 2,
-          "title": "News Events"
+          
+          "title": "News Events",
+          "url":"https://live.paloaltonetworks.com/t5/News-Events/ct-p/News-Events"
                  },
         {
-          "id": 3,
-          "title": "Collaboration"
+          
+          "title": "Collaboration",
+          "url":"https://live.paloaltonetworks.com/t5/Collaboration/ct-p/collaboration"
           
         },
         {
-          "id": 4,
-          "title": "Education"
-         
+          
+          "title": "Education",
+          "url":"https://live.paloaltonetworks.com/t5/Education/ct-p/academy"
         },
        {
-          "id": 5,
-          "title": "Technology"
+         
+          "title": "Technology",
+          "url":"https://live.paloaltonetworks.com/t5/Technologies/ct-p/Technology",
           
         },
        {
-          "id": 6,
-          "title": "Resources"
-       
+          
+          "title": "Resources",
+          "url":"https://live.paloaltonetworks.com/t5/Resources/ct-p/Resources"
         }
       ]
     }
