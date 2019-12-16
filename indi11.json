@@ -6,35 +6,38 @@
         {
          
           "title": "Get Started",
-          "url":"https://live.paloaltonetworks.com/t5/Get-Started/ct-p/get_started"
-         
+          "url":"https://live.paloaltonetworks.com/t5/Get-Started/ct-p/get_started",
+          "description":"Welcome to the LIVEcommunity! Thanks for joining our community."
         },
         {
           
           "title": "News Events",
-          "url":"https://live.paloaltonetworks.com/t5/News-Events/ct-p/News-Events"
+          "url":"https://live.paloaltonetworks.com/t5/News-Events/ct-p/News-Events",
+          "description":"Get rewarded for being active: the more you engage, the more badges you will get, showcasing your activity."
                  },
         {
           
           "title": "Collaboration",
-          "url":"https://live.paloaltonetworks.com/t5/Collaboration/ct-p/collaboration"
-          
+          "url":"https://live.paloaltonetworks.com/t5/Collaboration/ct-p/collaboration",
+          "description":"What exactly gets configured in the next-generation firewall when you load the IronSkillet day one."
         },
         {
           
           "title": "Education",
-          "url":"https://live.paloaltonetworks.com/t5/Education/ct-p/academy"
+          "url":"https://live.paloaltonetworks.com/t5/Education/ct-p/academy",
+          "description":"Expedition’s tools and features automate and simplify previously complex and time-consuming firewall operational"
         },
        {
          
           "title": "Technology",
           "url":"https://live.paloaltonetworks.com/t5/Technologies/ct-p/Technology",
-          
+          "description":"Welcome to the Next-Generation Firewall resource page. This area provides helpful information from getting started guides"
         },
        {
           
           "title": "Resources",
-          "url":"https://live.paloaltonetworks.com/t5/Resources/ct-p/Resources"
+          "url":"https://live.paloaltonetworks.com/t5/Resources/ct-p/Resources",
+          "description":"Find all additional resources including all the -pedias and advisories."
         }
       ]
     }
