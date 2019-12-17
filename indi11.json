@@ -34,7 +34,12 @@
                                              "title":"Resources",
                                              "description":"Find all additional resources including all the -pedias and advisories.",
                                              "url":"https://live.paloaltonetworks.com/t5/Resources/ct-p/Resources" 
-                                   }
+                                   },
+                                  {
+		"title":"Community Feedback",
+                                    "description":"Welcome to the Live Community Feedback forum. Please feel free to provide your feedback on our community below. We                                                              welcome your ideas, questions, and suggestions to improve your experience on the Live Community.",
+                                    "url":"https://live.paloaltonetworks.com/t5/Community-Feedback/bd-p/Community_Feedback"
+		}
 		
 		]                          
                                }
