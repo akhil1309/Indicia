@@ -1,41 +1,40 @@
 {
-      "results": [
-        {
-         
-          "title": "Get Started",
-          "url":"https://live.paloaltonetworks.com/t5/Get-Started/ct-p/get_started",
-          "description":"Welcome to the LIVEcommunity! Thanks for joining our community."
-        },
-        {
-          
-          "title": "News Events",
-          "url":"https://live.paloaltonetworks.com/t5/News-Events/ct-p/News-Events",
-          "description":"Get rewarded for being active: the more you engage, the more badges you will get, showcasing your activity."
-                 },
-        {
-          
-          "title": "Collaboration",
-          "url":"https://live.paloaltonetworks.com/t5/Collaboration/ct-p/collaboration",
-          "description":"What exactly gets configured in the next-generation firewall when you load the IronSkillet day one."
-        },
-        {
-          
-          "title": "Education",
-          "url":"https://live.paloaltonetworks.com/t5/Education/ct-p/academy",
-          "description":"Expedition’s tools and features automate and simplify previously complex and time-consuming firewall operational"
-        },
-       {
-         
-          "title": "Technology",
-          "url":"https://live.paloaltonetworks.com/t5/Technologies/ct-p/Technology",
-          "description":"Welcome to the Next-Generation Firewall resource page. This area provides helpful information from getting started guides"
-        },
-       {
-          
-          "title": "Resources",
-          "url":"https://live.paloaltonetworks.com/t5/Resources/ct-p/Resources",
-          "description":"Find all additional resources including all the -pedias and advisories."
-        }
-      ]
-    }
-  
+ 
+                "objects":[
+                                   {
+                                     "title":"Get Started",
+                                      "description":"Welcome to the LIVEcommunity! Thanks for joining our community. This article shows you around the LIVEommunity.",
+                                      "url":"https://live.paloaltonetworks.com/t5/Get-Started/ct-p/get_started"
+                                    },
+		{
+                                    "title":"News Events",
+                                    "description":"Get rewarded for being active: the more you engage, the more badges you will get, showcasing your activity and                                                              expertise",
+                                   "url":"https://live.paloaltonetworks.com/t5/News-Events/ct-p/News-Events"
+                                     },
+
+	                 {
+                                       "title":"Collaboration",
+                                       "description":"What exactly gets configured in the next-generation firewall when you load the IronSkillet day one.",
+                                       "url":"https://live.paloaltonetworks.com/t5/Collaboration/ct-p/collaboration"
+    		},
+
+	              {
+                                      "title":"Education",
+                                      "description":"Expedition’s tools and features automate and simplify previously complex and time-consuming firewall operational                                                                         tasks. Expeditionuses a custom machine learning algorithm to enable a safe and phased policy transformation to utilize                                                                  App-ID and User-ID to improve and maintain the security posture of your networks.",
+                                      "url":"https://live.paloaltonetworks.com/t5/Education/ct-p/academy"
+    		},
+	
+	               {
+                                      "title":"Technology",
+                                      "description":"https://live.paloaltonetworks.com/t5/Technologies/ct-p/Technology",
+                                      "url":"Welcome to the Next-Generation Firewall resource page. This area provides helpful information from getting started guides to                                                       many other trouble-shooting docs. Engage with other cybersecurity professionals and ask your questions or provide insightful                                                       answers in the Discussion forum specific to Next-Generation Firewall. Still got questions? You’ve come to the right place." 
+		},
+
+                                     {
+                                             "title":"Resources",
+                                             "description":"Find all additional resources including all the -pedias and advisories.",
+                                             "url":"https://live.paloaltonetworks.com/t5/Resources/ct-p/Resources" 
+                                   }
+		
+		]                          
+                               }
