@@ -31,8 +31,8 @@
 		},
 
                                      {
-                                             "title":"Resources",
-                                             "description":"Find all additional resources including all the -pedias and advisories.",
+                                             "title":"Lithium Resources",
+                                             "description":"Our customer wants to shape the traffic to 40 mbps user. I can see they have a QOS rule for all Traffic, class 4 is in use, does it mean the current shaping is 400 mbps?",
                                              "url":"https://live.paloaltonetworks.com/t5/Resources/ct-p/Resources" 
                                    },
                                   {
